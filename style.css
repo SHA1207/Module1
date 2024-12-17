@@ -1,0 +1,218 @@
+*
+{
+margin:0;
+padding:0;
+}
+.nav-link:hover{
+ transform: scale(1.2);
+}
+
+.navbar-brand{
+    font-weight: bolder;
+    color:green !important;
+}
+
+.nav-link {
+    font-weight:600;
+    margin: 0 0.625em 0 0.625em;
+    color:green !important;
+}
+
+.search{
+    height:2.5em;
+    width: 100%;
+    border-radius:3.75em;
+    outline: none;
+    border: 0.125em solid green;   
+    text-align: center;
+    margin-right:-1.875em;
+}
+
+.btn1{
+    height:2.5em;
+    width:60%;
+    outline: none;
+    border: none;
+    background-color: green;
+    border-radius:3.75em;
+    font-weight: bold;
+}
+.btn1:hover{
+    transition:0.5s;
+    background-color: rgb(15, 129, 15);
+    color: beige;
+  }
+.carousel-item img{
+    height:80vh;
+}
+
+.carousel-item h5{
+    color: rgb(12, 67, 7);
+}
+
+.carousel-item p{
+    color: rgb(33, 158, 33);
+}
+
+.icon{
+    width: 80%;
+    margin-left:auto;
+}
+
+.icon p{
+    font-weight: bolder;
+    color: green;
+    font-size: larger;
+}
+
+.card {
+    height:50vh; 
+}
+.card:hover{
+    box-shadow:0.125em 0.125em 0.125em 0.125em rgba(0, 128, 0, 0.75);
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    height:30vh; 
+    align-items: center;
+}
+
+.btn2 {
+    margin-top: 1.5em;
+    height: 2.8125em;
+    width: 10em;
+    border: none;
+    outline: none;
+    background-color:green;
+    color: white;
+    font-weight: 700;
+    border-radius: 3.75em;
+  }
+
+  .btn2:hover{
+    transition:0.5s;
+    opacity:0.8;
+    transform: scale(0.9);
+  }
+
+  .btn3 {
+    height: 2.8125em;
+    border: none;
+    outline: none;
+    background-color:green;
+    color: white;
+    font-weight: 700;
+    border-radius: 3.75em;
+  }
+.card1{
+    border: 0.0625em solid green;
+    height:65vh; 
+}
+
+.card1 img {
+    width: 100%;
+    height: 30vh;
+ 
+}
+
+
+.card1:hover{
+    box-shadow:0.125em 0.125em 0.125em 0.125em rgba(0,0,0,0.75);
+    transition: 0.5s;
+    transform: scale(1.01);
+}
+.last{
+    background-image:url(last.jpeg);
+    height: 60vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    color: green;
+    font-style: italic;
+}
+
+label{
+    color: white;
+    font-weight: bold;
+}
+
+.btn4{
+    height: 2.8125em;
+    border: none;
+    outline: none;
+    background-color: white;
+    color:green;
+    font-weight: 700;
+    border-radius: 3.75em;
+}
+
+.one li{
+    list-style: none;
+}
+
+.footer {
+    height:30vh; 
+    background-color: rgb(4, 49, 4);
+    color: antiquewhite;
+}
+
+.sticky-chatbot {
+    position: fixed;
+    bottom: 1.25em;
+    right: 1.25em;
+}
+
+.footer h4{
+    font-size: 1.35em;
+}
+
+  @media (min-width: 800px) and (max-width: 1200px) 
+  {
+    .footer  h4 {
+      font-size: 1.2em;
+    }
+    .footer li {
+      font-size: 0.65em;
+    }
+  }
+  
+  /* 800px to 600px (Medium Screens) */
+  @media (min-width: 600px) and (max-width: 800px) 
+  {
+    .footer h4 {
+      font-size: 1em;
+    }
+    .footer li {
+      font-size: 0.55em;
+    }
+ }
+  
+  /* 600px to 400px (Small Screens) */
+  @media (min-width: 400px) and (max-width: 600px) 
+  {
+    .footer h4 {
+      font-size: 0.8em;
+    }
+    .footer li {
+      font-size: 0.45em;
+    }
+    .footer {
+        height: 40vh;
+        }
+  }
+  
+  /* Extra Small Screens (XS) - Adjust as needed */
+  @media (max-width: 400px) {
+    h4 {
+      font-size: 0.7em;
+    }
+    li {
+      font-size: 0.4em;
+    }
+    .footer {
+        height: 40vh;
+        }
+    }
+  
